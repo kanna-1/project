@@ -27,7 +27,5 @@ python3 scripts/fetch_youtube_transcript.py "<youtube-video-url>" "<output-file>
 ```
 
 ## Notes
-
-- LinkedIn collection was limited to public post pages available without login.
 - YouTube transcripts were collected from available English transcripts.
 - I prioritized higher-signal operator content over maximizing file count.
