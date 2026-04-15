@@ -48,9 +48,11 @@ I chose this topic because it sits at the center of modern B2B SaaS growth:
 - it can directly influence demos, pipeline, and category positioning
 - it leaves behind a strong public trail of real operator content to study
 
+Example in action: a SaaS sales leader may see a founder’s LinkedIn posts for weeks without taking action. But once their team hits a pipeline problem, that founder is already familiar and credible. Instead of feeling like a random vendor, they feel like a trusted expert, which makes the buyer far more likely to engage.
+
 ## Why These Experts
 
-I prioritized practitioners who actually operate in B2B SaaS growth, founder-led marketing, content distribution, or social selling. The goal was to avoid generic “LinkedIn gurus” and instead collect material from people who tie content to:
+I prioritized practitioners who actually operate in B2B SaaS growth, founder-led marketing, content distribution, or social selling. The goal was to  collect material from people who tie content to:
 - inbound pipeline
 - founder-led demand generation
 - zero-click strategy
@@ -86,11 +88,3 @@ I used lightweight scripts so the process is repeatable rather than manual-only:
 - `scripts/fetch_youtube_transcript.py` saves YouTube metadata plus transcript text
 
 Method notes and commands are documented in [research/other/collection-method.md](research/other/collection-method.md).
-
-## Current Status
-
-- Research topic selected and scoped
-- Expert list curated
-- LinkedIn posts saved by author
-- YouTube transcripts collected via API tooling
-- Source annotations documented for later playbook creation
