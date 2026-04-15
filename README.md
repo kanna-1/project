@@ -63,8 +63,7 @@ I prioritized practitioners who actually operate in B2B SaaS growth, founder-led
 The current corpus includes:
 - `10` primary experts
 - `10` LinkedIn post captures organized by author
-- `9` YouTube transcript files captured programmatically
-- `1` supplemental interview source
+- `8` YouTube transcript files captured programmatically
 
 The full expert list, links, dates, and annotations are in [research/sources.md](research/sources.md).
 

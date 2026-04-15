@@ -84,15 +84,8 @@ That means the current LinkedIn corpus reflects the exact public URLs that were 
 - YouTube: `2026-03-24` - [What Separates Good VPs of Growth From Great Ones (5 Honest Patterns)](https://www.youtube.com/watch?v=rWOuzYYdvx8) - saved to [youtube-transcripts/andrew-capland-good-vps-of-growth.md](youtube-transcripts/andrew-capland-good-vps-of-growth.md)
 - Annotation: helpful for framing why modern LinkedIn strategy matters in the context of tighter teams, AI pressure, and changing growth playbooks.
 
-## Supplemental Video Source
-
-### Devin Reed
-- Why included: supplemental voice for executive-led content and B2B brand storytelling.
-- YouTube: `2025-07-29` - [Why executives should hit record: Devin Reed's tips for leveraging video on LinkedIn](https://www.youtube.com/watch?v=mu72K4ezJk0) - saved to [youtube-transcripts/devin-reed-linkedin-video-for-executives.md](youtube-transcripts/devin-reed-linkedin-video-for-executives.md)
-
 ## Quick Inventory
 
 - `10` primary experts
 - `10` saved LinkedIn post files
-- `9` saved YouTube transcript files
-- `1` additional supplemental interview source
+- `8` saved YouTube transcript files
