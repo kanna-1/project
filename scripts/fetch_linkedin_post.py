@@ -19,7 +19,12 @@ USER_AGENT = (
 
 
 def extract_json_value(page: str, key: str) -> str | None:
-    match = re.search(rf'"{re.escape(key)}":"(.*?)"', page)
+    patterns = {
+        "headline": r'"headline":"(.*?)","author"',
+        "articleBody": r'"articleBody":"(.*?)","author":',
+        "datePublished": r'"datePublished":"(.*?)"',
+    }
+    match = re.search(patterns.get(key, rf'"{re.escape(key)}":"(.*?)"'), page, re.DOTALL)
     if not match:
         return None
     raw = match.group(1)
@@ -44,16 +49,20 @@ def fetch_post(url: str) -> dict[str, str]:
     response.raise_for_status()
     page = response.text
 
-    headline = extract_json_value(page, "headline") or "Untitled LinkedIn post"
-    article_body = extract_json_value(page, "articleBody") or ""
-    published = extract_json_value(page, "datePublished") or ""
-
-    author_match = re.search(
-        r'<meta name="twitter:title" content=".*?\|\s([^|]+?)\s\|\s\d+\scomments">',
+    social_title_match = re.search(
+        r'<meta name="twitter:title" content="(.*?)\|\s*([^|]+?)\s*(?:\|\s*\d+\scomments|posted on the topic\s*\|\s*LinkedIn)">',
         page,
         re.DOTALL,
     )
-    author = html.unescape(author_match.group(1).strip()) if author_match else ""
+    if social_title_match:
+        title_blob = html.unescape(social_title_match.group(1)).strip()
+        headline = re.split(r"\n\s*\n|\n", title_blob, maxsplit=1)[0].strip()
+        author = html.unescape(social_title_match.group(2).strip())
+    else:
+        headline = extract_json_value(page, "headline") or "Untitled LinkedIn post"
+        author = ""
+    article_body = extract_json_value(page, "articleBody") or ""
+    published = extract_json_value(page, "datePublished") or ""
 
     return {
         "author": author,
