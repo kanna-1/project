@@ -63,7 +63,7 @@ I prioritized practitioners who actually operate in B2B SaaS growth, founder-led
 The current corpus includes:
 - `10` primary experts
 - `10` LinkedIn post captures organized by author
-- `8` YouTube transcript files captured programmatically
+- `9` YouTube transcript files captured programmatically
 - `1` supplemental interview source
 
 The full expert list, links, dates, and annotations are in [research/sources.md](research/sources.md).
@@ -78,6 +78,8 @@ That means:
 - the script fetches the public page and saves the parsed title, date, author, body, and source URL
 
 This repo’s current LinkedIn files were refreshed from manually supplied public URLs for each author, so the saved files now reflect the exact posts chosen for the research corpus.
+
+For YouTube, I also refreshed transcript files from the exact public video URLs that were supplied for selected authors.
 
 ## Repository Layout
 
@@ -96,6 +98,6 @@ scripts/
 
 I used lightweight scripts so the process is repeatable rather than manual-only:
 - `scripts/fetch_linkedin_post.py` saves public LinkedIn posts into markdown with metadata, but it requires a manually supplied public post URL
-- `scripts/fetch_youtube_transcript.py` saves YouTube metadata plus transcript text
+- `scripts/fetch_youtube_transcript.py` saves YouTube metadata plus transcript text from a public video URL
 
 Method notes and commands are documented in [research/other/collection-method.md](research/other/collection-method.md).

@@ -35,25 +35,25 @@ That means the current LinkedIn corpus reflects the exact public URLs that were 
 ### Tommy Clark
 - Why included: specializes in executive ghostwriting and practical LinkedIn content systems for founders.
 - LinkedIn: `2026-04-14` - [When I first started doing exec ghostwriting, I thought the *writing* was the most important part of it all. I was wrong.](https://www.linkedin.com/posts/tclarkmedia_when-i-first-started-doing-exec-ghostwriting-activity-7449817987001311232-1ux8) - saved to [linkedin-posts/tommy-clark/content-interviews-exec-ghostwriting.md](linkedin-posts/tommy-clark/content-interviews-exec-ghostwriting.md)
-- YouTube: `2024-09-30` - [The Best LinkedIn Content Strategy for SaaS](https://www.youtube.com/watch?v=5lcZl4iEjI0) - saved to [youtube-transcripts/tommy-clark-best-linkedin-content-strategy-for-saas.md](youtube-transcripts/tommy-clark-best-linkedin-content-strategy-for-saas.md)
+- YouTube: `2026-03-14` - [If your LinkedIn posts get under 100 likes… do this](https://www.youtube.com/watch?v=zMzPmTETIyU) - saved to [youtube-transcripts/tommy-clark-under-100-likes.md](youtube-transcripts/tommy-clark-under-100-likes.md)
 - Annotation: strong source for founder interview workflows, ghostwriting process, and turning raw conversations into posts.
 
 ### Amanda Natividad
 - Why included: sharp operator perspective on zero-click marketing and how brand perception is shaped outside owned channels.
 - LinkedIn: `2026-04-14` - [Your brand’s public record is being written without you.](https://www.linkedin.com/posts/amandanat_your-brands-public-record-is-being-written-activity-7449837643539849216-uPeh) - saved to [linkedin-posts/amanda-natividad/brand-public-record.md](linkedin-posts/amanda-natividad/brand-public-record.md)
-- YouTube: `2026-03-24` - [From Old-School SEO to Zero Click Marketing](https://www.youtube.com/watch?v=q8gsBifXO2E) - saved to [youtube-transcripts/amanda-natividad-zero-click-marketing.md](youtube-transcripts/amanda-natividad-zero-click-marketing.md)
+- YouTube: `2026-04-14` - [A Playbook for Shaping What the Internet Says About You](https://www.youtube.com/watch?v=BVRE-0fHlV4) - saved to [youtube-transcripts/amanda-natividad-shaping-what-the-internet-says.md](youtube-transcripts/amanda-natividad-shaping-what-the-internet-says.md)
 - Annotation: helpful for understanding how LinkedIn content fits into wider brand discovery and AI-era visibility.
 
 ### Adam Robinson
 - Why included: founder who treats LinkedIn as an audience, demand, and business-building asset.
 - LinkedIn: `2026-04-13` - [Will McTighe went from 3,000 to 400,000 LinkedIn followers in 20 months.](https://www.linkedin.com/posts/retentionadam_will-mctighe-went-from-3000-to-400000-linkedin-activity-7449536001334501377-OMag) - saved to [linkedin-posts/adam-robinson/linkedin-follower-growth-case-study.md](linkedin-posts/adam-robinson/linkedin-follower-growth-case-study.md)
-- YouTube: `2025-06-17` - [Turn LINKEDIN Into a $30M ARR GROWTH Machine](https://www.youtube.com/watch?v=nGPpct0KWbc) - saved to [youtube-transcripts/adam-robinson-linkedin-growth-machine.md](youtube-transcripts/adam-robinson-linkedin-growth-machine.md)
+- YouTube: `2026-04-09` - [AI Changed SaaS (And Nobody Even Realizes)](https://www.youtube.com/watch?v=kS9ii5vYbOM) - saved to [youtube-transcripts/adam-robinson-ai-changed-saas.md](youtube-transcripts/adam-robinson-ai-changed-saas.md)
 - Annotation: strong source for audience building, distribution leverage, and using LinkedIn as a growth engine.
 
 ### Ross Simmonds
 - Why included: distribution-first lens helps connect posting to amplification and compounding reach.
 - LinkedIn: `2026-04-12` - [Normalize distributing one piece of content 50 times before creating a new one.](https://www.linkedin.com/posts/rosssimmonds_normalize-distributing-one-piece-of-content-activity-7449105299380224000-nHpv) - saved to [linkedin-posts/ross-simmonds/distribute-content-50-times.md](linkedin-posts/ross-simmonds/distribute-content-50-times.md)
-- YouTube: `2025-05-27` - [B2B Content Distribution Masterclass: Live with Ross Simmonds](https://www.youtube.com/watch?v=HqKjnlBfcg0) - saved to [youtube-transcripts/ross-simmonds-content-distribution-masterclass.md](youtube-transcripts/ross-simmonds-content-distribution-masterclass.md)
+- YouTube: `2026-03-27` - [How Matt Paulson Built $200M+ in Wealth from His Small Town & What He'd Do Differently Now](https://www.youtube.com/watch?v=Gk_YMlkcuZE) - saved to [youtube-transcripts/ross-simmonds-matt-paulson-interview.md](youtube-transcripts/ross-simmonds-matt-paulson-interview.md)
 - Annotation: excellent for the “distribution after creation” layer of a LinkedIn strategy playbook.
 
 ### Emily Kramer
@@ -81,6 +81,7 @@ That means the current LinkedIn corpus reflects the exact public URLs that were 
 ### Andrew Capland
 - Why included: practical operator perspective on what growth teams are actually struggling with right now.
 - LinkedIn: `2026-04-14` - [Most of my clients are struggling with the playbook needed to grow in 2026.](https://www.linkedin.com/posts/andrewcapland_most-of-my-clients-are-struggling-with-the-activity-7449808333164908544-el3N) - saved to [linkedin-posts/andrew-capland/growth-playbook-2026.md](linkedin-posts/andrew-capland/growth-playbook-2026.md)
+- YouTube: `2026-03-24` - [What Separates Good VPs of Growth From Great Ones (5 Honest Patterns)](https://www.youtube.com/watch?v=rWOuzYYdvx8) - saved to [youtube-transcripts/andrew-capland-good-vps-of-growth.md](youtube-transcripts/andrew-capland-good-vps-of-growth.md)
 - Annotation: helpful for framing why modern LinkedIn strategy matters in the context of tighter teams, AI pressure, and changing growth playbooks.
 
 ## Supplemental Video Source
@@ -93,5 +94,5 @@ That means the current LinkedIn corpus reflects the exact public URLs that were 
 
 - `10` primary experts
 - `10` saved LinkedIn post files
-- `8` saved YouTube transcript files
+- `9` saved YouTube transcript files
 - `1` additional supplemental interview source

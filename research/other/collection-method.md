@@ -33,5 +33,6 @@ python3 scripts/fetch_youtube_transcript.py "<youtube-video-url>" "<output-file>
 ## Notes
 - The LinkedIn script does not discover posts automatically; it only fetches a post after a public URL is supplied.
 - For this repo, the latest LinkedIn posts were refreshed from manually provided public URLs.
+- For this repo, selected YouTube transcript files were also refreshed from manually provided public video URLs.
 - YouTube transcripts were collected from available English transcripts.
 - I prioritized higher-signal operator content over maximizing file count.
