@@ -75,7 +75,7 @@ LinkedIn limits anonymous access unevenly, so the repo should be read as a colle
 Examples of newer public posts I verified on `2026-04-15`:
 - `Austin Hughes` - `2025-07-01` - `Unify launches AI-powered system for sales reps`
 - `Amanda Natividad` - `2025-10-24` - `Why guest speakers aren't your growth hack`
-- `Adam Robinson` - `2026-01-17` - `CEO Review: $28m ARR Performance and 2026 Goals`
+- `Adam Robinson` - `2026-04-13` - `Will McTighe went from 3,000 to 400,000 LinkedIn followers in 20 months.`
 - `Tommy Clark` - `2026-01-12` - `LinkedIn Strategy Update: What's Working in 2026`
 - `Emily Kramer` - `2025-10-31` - `I'm hosting MKT1s first ever virtual conference: the Gen Marketer Summit. But I need you tell me when.`
 

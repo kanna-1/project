@@ -38,9 +38,9 @@ Collected on `2026-04-15` using:
 
 ### Adam Robinson
 - Why included: founder who publicly shares revenue and growth context, plus explicit lessons on turning LinkedIn into pipeline.
-- LinkedIn: `2024-03-02` - [We closed out February at $1.8M MRR (-0.2%), our 6th down month ever.](https://www.linkedin.com/posts/retentionadam_we-closed-out-february-at-18m-mrr-02-activity-7169807408137981952-4Ab7) - saved to [linkedin-posts/adam-robinson/build-in-public-mrr.md](linkedin-posts/adam-robinson/build-in-public-mrr.md)
+- LinkedIn: `2026-04-13` - [Will McTighe went from 3,000 to 400,000 LinkedIn followers in 20 months.](https://www.linkedin.com/posts/retentionadam_will-mctighe-went-from-3000-to-400000-linkedin-activity-7449536001334501377-OMag) - saved to [linkedin-posts/adam-robinson/linkedin-follower-growth-case-study.md](linkedin-posts/adam-robinson/linkedin-follower-growth-case-study.md)
 - YouTube: `2025-06-17` - [Turn LINKEDIN Into a $30M ARR GROWTH Machine](https://www.youtube.com/watch?v=nGPpct0KWbc) - saved to [youtube-transcripts/adam-robinson-linkedin-growth-machine.md](youtube-transcripts/adam-robinson-linkedin-growth-machine.md)
-- Annotation: strong source for founder-led demand generation and build-in-public style content that compounds.
+- Annotation: strong source for founder-led demand generation, audience building, and turning LinkedIn distribution into business outcomes.
 
 ### Ross Simmonds
 - Why included: distribution-first lens helps connect good LinkedIn posts to broader content amplification and demand capture.
