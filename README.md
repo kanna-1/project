@@ -62,7 +62,7 @@ I prioritized practitioners who actually operate in B2B SaaS growth, founder-led
 
 The current corpus includes:
 - `10` primary experts
-- `12` LinkedIn post captures organized by author
+- `10` LinkedIn post captures organized by author
 - `8` YouTube transcript files captured programmatically
 - `1` supplemental interview source
 
@@ -70,16 +70,14 @@ The full expert list, links, dates, and annotations are in [research/sources.md]
 
 ## Latest Public Post Check
 
-LinkedIn limits anonymous access unevenly, so the repo should be read as a collection of the latest **publicly retrievable** posts I could verify without logging in, not a guarantee of each creator's account-level latest post behind LinkedIn session walls.
+LinkedIn limits anonymous access unevenly, so the LinkedIn part of this repo uses a manual-public-URL workflow.
 
-Examples of newer public posts I verified on `2026-04-15`:
-- `Austin Hughes` - `2025-07-01` - `Unify launches AI-powered system for sales reps`
-- `Amanda Natividad` - `2025-10-24` - `Why guest speakers aren't your growth hack`
-- `Adam Robinson` - `2026-04-13` - `Will McTighe went from 3,000 to 400,000 LinkedIn followers in 20 months.`
-- `Tommy Clark` - `2026-01-12` - `LinkedIn Strategy Update: What's Working in 2026`
-- `Emily Kramer` - `2025-10-31` - `I'm hosting MKT1s first ever virtual conference: the Gen Marketer Summit. But I need you tell me when.`
+That means:
+- I manually gather a public LinkedIn post URL
+- I pass that exact URL into `scripts/fetch_linkedin_post.py`
+- the script fetches the public page and saves the parsed title, date, author, body, and source URL
 
-This matters because the assignment asks for recent content. Where LinkedIn exposed a newer public post, I used that signal to validate that these creators are still active and relevant to a modern B2B SaaS LinkedIn strategy project.
+This repo’s current LinkedIn files were refreshed from manually supplied public URLs for each author, so the saved files now reflect the exact posts chosen for the research corpus.
 
 ## Repository Layout
 
@@ -97,7 +95,7 @@ scripts/
 ## Collection Workflow
 
 I used lightweight scripts so the process is repeatable rather than manual-only:
-- `scripts/fetch_linkedin_post.py` saves public LinkedIn posts into markdown with metadata
+- `scripts/fetch_linkedin_post.py` saves public LinkedIn posts into markdown with metadata, but it requires a manually supplied public post URL
 - `scripts/fetch_youtube_transcript.py` saves YouTube metadata plus transcript text
 
 Method notes and commands are documented in [research/other/collection-method.md](research/other/collection-method.md).

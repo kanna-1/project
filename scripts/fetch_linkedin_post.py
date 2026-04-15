@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Fetch a public LinkedIn post and save it as markdown."""
+"""Fetch a public LinkedIn post and save it as markdown.
+
+This script does not discover posts on its own. You must manually supply a
+public LinkedIn post URL, then the script fetches that page and extracts the
+metadata and body text.
+"""
 
 from __future__ import annotations
 
@@ -8,6 +13,7 @@ import html
 import json
 import re
 from pathlib import Path
+from json import JSONDecodeError
 
 import requests
 
@@ -28,7 +34,11 @@ def extract_json_value(page: str, key: str) -> str | None:
     if not match:
         return None
     raw = match.group(1)
-    value = json.loads(f'"{raw}"')
+    try:
+        value = json.loads(f'"{raw}"')
+    except JSONDecodeError:
+        value = raw.split('","', 1)[0]
+        value = bytes(value, "utf-8").decode("unicode_escape", errors="ignore")
     if any(token in value for token in ("â", "Ã", "\x80", "\x99")):
         try:
             value = value.encode("latin1").decode("utf-8")
@@ -44,25 +54,34 @@ def normalize_body(text: str) -> str:
     return text
 
 
+def pick_title(candidate: str | None, fallback: str | None) -> str:
+    title = (candidate or "").strip()
+    if not title or title.lower() in {"text", "image", "video", "link"}:
+        title = (fallback or "").strip()
+    return title or "Untitled LinkedIn post"
+
+
 def fetch_post(url: str) -> dict[str, str]:
     response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
     response.raise_for_status()
     page = response.text
 
     social_title_match = re.search(
-        r'<meta name="twitter:title" content="(.*?)\|\s*([^|]+?)\s*(?:\|\s*\d+\scomments|posted on the topic\s*\|\s*LinkedIn)">',
+        r'<meta name="twitter:title" content="(.*?)\|\s*([^|]+?)\s*(?:(?:\|\s*\d+\scomments)|(?:posted on the topic\s*\|\s*LinkedIn)|(?:\|\s*LinkedIn)|(?:\">))',
         page,
         re.DOTALL,
     )
     if social_title_match:
         title_blob = html.unescape(social_title_match.group(1)).strip()
-        headline = re.split(r"\n\s*\n|\n", title_blob, maxsplit=1)[0].strip()
+        social_headline = re.split(r"\n\s*\n|\n", title_blob, maxsplit=1)[0].strip()
         author = html.unescape(social_title_match.group(2).strip())
     else:
-        headline = extract_json_value(page, "headline") or "Untitled LinkedIn post"
+        social_headline = ""
         author = ""
+    json_headline = extract_json_value(page, "headline") or ""
     article_body = extract_json_value(page, "articleBody") or ""
     published = extract_json_value(page, "datePublished") or ""
+    headline = pick_title(social_headline, json_headline or article_body.splitlines()[0] if article_body else "")
 
     return {
         "author": author,
@@ -90,7 +109,7 @@ def build_markdown(post: dict[str, str]) -> str:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("url", help="Public LinkedIn post URL")
+    parser.add_argument("url", help="Public LinkedIn post URL collected manually")
     parser.add_argument("output", help="Output markdown path")
     args = parser.parse_args()
 
