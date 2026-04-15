@@ -68,6 +68,19 @@ The current corpus includes:
 
 The full expert list, links, dates, and annotations are in [research/sources.md](research/sources.md).
 
+## Latest Public Post Check
+
+LinkedIn limits anonymous access unevenly, so the repo should be read as a collection of the latest **publicly retrievable** posts I could verify without logging in, not a guarantee of each creator's account-level latest post behind LinkedIn session walls.
+
+Examples of newer public posts I verified on `2026-04-15`:
+- `Austin Hughes` - `2025-07-01` - `Unify launches AI-powered system for sales reps`
+- `Amanda Natividad` - `2025-10-24` - `Why guest speakers aren't your growth hack`
+- `Adam Robinson` - `2026-01-17` - `CEO Review: $28m ARR Performance and 2026 Goals`
+- `Tommy Clark` - `2026-01-12` - `LinkedIn Strategy Update: What's Working in 2026`
+- `Emily Kramer` - `2025-10-31` - `I'm hosting MKT1s first ever virtual conference: the Gen Marketer Summit. But I need you tell me when.`
+
+This matters because the assignment asks for recent content. Where LinkedIn exposed a newer public post, I used that signal to validate that these creators are still active and relevant to a modern B2B SaaS LinkedIn strategy project.
+
 ## Repository Layout
 
 ```text
